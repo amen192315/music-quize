@@ -1,0 +1,30 @@
+a {
+    color: black;
+    transition: 0.8s;
+  }
+  .easy{
+    margin-right: 50px;
+  }
+  .med{
+    margin-right: 50px;
+  }
+
+.easy:hover,
+.easy:focus {
+  box-shadow: inset 6.5em 0 0 0  rgb(87, 136, 19);
+  border-color: orange;
+    color: #fff;
+  
+}
+.med:hover,
+.med:focus {
+  box-shadow: inset 6.5em 0 0 0 rgb(252, 119, 31);
+  border-color: orange;
+    color: #fff;
+}
+.hard:hover,
+.hard:focus {
+  box-shadow: inset 6.5em 0 0 0   rgb(212, 83, 83);
+  border-color: orange;
+    color: #fff;
+}

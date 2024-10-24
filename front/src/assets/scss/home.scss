@@ -1,0 +1,75 @@
+.grid{
+    display: flex;
+    flex-direction: column;
+}
+.btn-primary{
+	cursor: default;
+}
+a{
+    font-weight: 600;
+    font-size: 22px;
+    color: black;
+	border: none;
+ }
+.link{
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+	border: none;
+	text-transform: uppercase;
+}
+.linkTwo{
+    padding: 10px 34px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.linkThree{
+    padding: 10px 27px;
+    border: 2px solid black;
+    border-radius: 10px;
+	border: none;
+}
+.linkFour{
+    padding: 10px 40px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+[class^="btn-"] {
+	position: relative;
+	overflow: hidden;
+	margin: 1rem auto;
+	text-transform: uppercase;
+
+	background: none;
+	transition: 0.5s ease-in-out;
+	text-decoration: none;
+	text-align: center;
+	padding: 10px 12px;
+    border-radius: 10px;
+  }
+  
+  .btn-p {
+	color: #804694;
+  }
+  .btn-p span {
+	position: absolute;
+	display: block;
+	width: 0;
+	height: 0;
+	border-radius: 50%;
+	background: linear-gradient(90deg, rgba(95,95,95,1) 0%, rgba(155,55,143,1) 0%, rgba(110,19,134,1) 100%);
+	transition: width 0.4s ease-in-out, height 0.4s ease-in-out;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	z-index: -1;
+  }
+  .btn-p:hover {
+	color: #dac9e0;
+  }
+  .btn-p:hover span {
+	width: 225%;
+	height: 562.5px;
+  }
+  .btn-p:active {
+	background-color: #692581;
+  }
